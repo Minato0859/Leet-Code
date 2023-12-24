@@ -35,6 +35,28 @@ class Solution:
                 del vowels_in_word[0]
         
         return ''.join(list_s)
+    
+    
+    
+    # 27 ms Sol:
+    # class Solution:
+    #     def reverseVowels(self, s: str) -> str:
+    #         vowelsSet = {'A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u'}
+    #         stack = [v for v in s if v in vowelsSet]
+    #         strResult = ""
+    #         for c in s:
+    #             strResult += stack.pop() if c in vowelsSet else c
+    #         return strResult
+    
+    # 50 ms Sol:
+    # class Solution:
+        #  def reverseVowels(self, s: str) -> str:
+        #     vowelsSet = {'A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u'}
+        #     stack = [v for v in s if v in vowelsSet]
+        #     strResult = ""
+        #     for c in s:
+        #         strResult += stack.pop() if c in vowelsSet else c
+        #     return strResult
 
 
         
