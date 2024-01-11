@@ -1,0 +1,26 @@
+In LeetCode problems, the term "two pointers" refers to a common algorithmic technique where you use two pointers (or indices) to iterate through an array (or other linear data structure) to solve a problem. This technique is often used in problems involving arrays or linked lists where you need to find, modify, match, or separate elements based on certain criteria.
+
+### Characteristics of the Two Pointers Technique:
+
+1. **Efficiency**: It's often more efficient than brute force methods, especially in problems that require searching for a pair of elements or reordering elements.
+
+2. **Different Patterns**:
+   - **Opposite Direction**: Two pointers start at opposite ends of the array and move towards each other. Common in problems like finding a pair that sums up to a target value.
+   - **Same Direction**: Both pointers move in the same direction, one trailing the other. Useful in sliding window problems or when finding subarrays that satisfy certain conditions.
+   - **Fast and Slow Pointers**: Often used in linked list problems, where the fast pointer moves at twice the speed of the slow pointer, useful for cycle detection or finding the middle of the list.
+
+### Example Usage:
+
+1. **Sum Pairs**: Given a sorted array and a target sum, find if there are any two numbers that add up to the target. Start with one pointer at the beginning and another at the end, and move them towards each other based on the sum of their elements.
+
+2. **Remove Duplicates**: Given a sorted array, remove duplicates in-place. Use two pointers where one tracks the position of the non-duplicate element and the other scans through the array.
+
+3. **Cycle Detection in Linked List**: Use two pointers moving at different speeds (slow and fast) to detect a cycle in a linked list.
+
+### Advantages of Two Pointers:
+
+- **Space Efficiency**: Often requires constant extra space, making it space-efficient.
+- **Time Efficiency**: Can reduce time complexity from O(n²) to O(n) in many cases.
+- **Simplicity**: Often leads to cleaner and easier to understand code compared to nested loops.
+
+When you see a problem tagged with "two pointers" on LeetCode, it's a hint that you might want to consider using this technique to solve the problem efficiently. It's a powerful tool in a programmer's toolbox for solving array and linked list problems.
