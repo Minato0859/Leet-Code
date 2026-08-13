@@ -1,10 +1,5 @@
-k = 4
+# list = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 
-str = 'qwertyu'
+list = ['111111', '1']
 
-
-
-new_list = str[:3]
- 
-print(new_list)
-
+print(max(list))
